@@ -1,0 +1,19 @@
+//lifeGameMain.h
+#include <windows.h>
+
+#define BSIZE 66
+#define CSIZE 12
+#define ID_PERIOD 10
+#define TIME_PRERIOD 100
+
+#define LINECOLOR RGB(172,172,172)
+#define LIGHTCOLOR RGB(248,248,248)
+#define DARKCOLOR RGB(32,32,32)
+#define ALIVE2COLOR RGB(255,255,153)
+#define ALIVE3COLOR RGB(255,204,0)
+
+
+LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
+ATOM InitApp(HINSTANCE);
+static VOID funcSetClientSize( HWND, LONG, LONG );
+BOOL InitInstance(HINSTANCE, int);
